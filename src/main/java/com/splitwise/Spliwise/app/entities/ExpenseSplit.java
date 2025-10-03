@@ -1,8 +1,12 @@
 package com.splitwise.Spliwise.app.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 @Table(name = "expense_splits")
 public class ExpenseSplit {
 
